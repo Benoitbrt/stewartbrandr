@@ -1,0 +1,214 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:#000;
+    font-family:helvetica;
+    font-size: 34px;
+    font-style: italic;
+    letter-spacing:-1px;
+    width:20000px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    bottom:0px;
+}
+
+.section{
+    margin:0px;
+    bottom:0px;
+    width:4000px;
+    float:left;
+    height:100%;
+}
+
+.section h2{
+    margin:50px 0px 30px 50px;
+}
+.section p{
+    margin:20px 0px 0px 50px;
+    width:600px;
+}
+.black{
+    background-color: black;
+}
+#texte p{
+    color: white;
+}
+
+#texte h2{
+    color: white;
+}
+
+.white{
+    
+    background-color: white;
+}
+
+.section ul{
+    list-style:none;
+    margin:20px 0px 0px 550px;
+}
+
+.black ul li{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.black ul li a{
+    display:block;
+    width: 20px;
+    height: 20px;
+    border-radius:5px;
+    background-color: white;
+    
+}
+.black ul li a.active{
+    cursor:default;
+    width: 17px;
+    height: 17px;
+    border-radius: 30px;
+    background-color: black;   
+    border: 3px solid white; 
+    margin: -1px 0 0 -1px; 
+}
+.black ul li a:hover{
+    text-decoration:none;
+    color:#fff;
+}
+.white ul li{
+     width: 20px;
+    height: 20px;
+    display: inline-block;
+    
+    
+}
+.white ul li a{
+    display:block;
+    width: 20px;
+    height: 20px;
+    border-radius:5px;
+    background-color: black;    
+}
+
+.white ul li a.active{
+    
+    cursor:default;
+    width: 17px;
+    height: 17px;
+    border-radius: 30px;
+    background-color: white;   
+    border: 3px solid black; 
+    margin: -1px 0 0 -1px; 
+}
+
+.white ul li a:hover{
+    text-decoration:none;
+    color:#000;
+}
+
+div#centre0{
+    width: 80vw;
+    margin-left:10vw;
+    margin-top: 15vh;
+}
+
+#centre0 ul{
+    width: 150px;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#illuaccueil img{
+    width: 1200px;
+    margin-left: 10vw;
+    
+}
+
+div#centre1{
+    width: 80vw;
+    margin-left:10vw;
+    margin-top: 15vh;
+    
+}
+
+#bouche img{
+    width: 750px;
+    float: left;
+    background-image: url(images/effetsdulsd.png);
+}
+
+#bouche img:hover{
+    opacity: 0;
+}
+
+ div#texte{
+    
+    width: 750px;
+    float: right;
+    
+ }
+
+
+div#centre2{
+    width: 80vw;
+    margin-left:10vw;
+    margin-top: 15vh;
+
+}
+
+#hippie img{
+    width: 750px;
+    float: left;
+}
+
+ div#texte2{
+    
+    width: 750px;
+    float: right;
+ }
+
+
+ div#centre3{
+    width: 80vw;
+    margin-left:10vw;
+    margin-top: 15vh;
+}
+
+#militaires img{
+    width: 750px;
+    float: left;
+    margin-top: 20vh;
+}
+
+div#texte3{
+    
+    width: 750px;
+    float: right;
+    color: white;
+    
+}
+
+ div#centre4{
+    width: 80vw;
+    margin-left:10vw;
+    margin-top: 15vh;
+}
+
+#stewartbrand img{
+    width: 750px;
+    float: left;
+    margin-top: 20vh;
+}
+
+div#texte4{
+    
+    width: 750px;
+    float: right;
+    color: black;
+  
+}
+
+
